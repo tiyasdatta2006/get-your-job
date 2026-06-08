@@ -1,30 +1,76 @@
-# Welcome to Your Dazl Project! 🎉
+# Welcome to GetYourJob! 🎉
 
-Your canvas for building beautiful, fast, and user-friendly web applications. This project is designed to help you move from idea to launch quickly, without getting bogged down in technical complexity.
+More than 90% of job seekers use the same resume for every application, while modern ATS systems and recruiters expect role-specific, keyword-optimized resumes. GetYourJob bridges this gap by generating tailored resumes that align with job descriptions, ATS requirements, and recruiter expectations. Single generic resume- 100 applications→ 5 interviews **Optimized JD based resume- 100 applications→ 45 interviews
 
-## What You're Getting
+🌟 Overview
 
-Think of this as your complete toolkit for building modern web experiences. Everything you need is already set up and ready to go.
+GetYourJob is an AI-powered optimization platform to generate optimized resume based on JD(Job Description) and easy importation(png, jpg, docx, pdf) designed to help:
 
-- 🎨 **Beautiful UI Out of the Box** - A complete library of polished, accessible components that look great and work seamlessly together. Buttons, forms, dialogs, navigation—it's all here, styled and ready to use.
+🎓 Freshers
+🏫 College Students
+💼 Job Switchers
+🚀 Career Aspirants
 
-- ⚡ **Lightning-Fast Performance** - Your users will love how snappy everything feels. Pages load instantly, interactions are smooth, and your app works great even on slower connections.
+Create highly optimized resumes that align with recruiter expectations and Applicant Tracking Systems (ATS).
+Also instead of writing resumes manually, users can provide their details and let AI generate professional resumes tailored to specific job descriptions.
+🌙 Dark Mode Support. Premium Apple-inspired Light & Dark themes.
+📥 Resume Import
+Import existing resumes from:
+PDF, PNG, JPG, DOCX
 
-- 🎯 **Consistent Design System** - Every color, spacing, and animation follows a cohesive design language. Make changes to your brand in one place, and watch them update everywhere automatically.
+🛠 Tech Stack
 
-- 📱 **Works Everywhere** - Desktop, tablet, mobile—your app adapts beautifully to any screen size without extra work.
+**Frontend
+⚛️ Next.js 📘 TypeScript 🎨 Tailwind CSS 🎭 Framer Motion
 
-## Need Help?
+**Backend
+🚂 Express.js 📘 TypeScript
 
-You're never stuck — here's where to look:
+**Database
+⚡ Supabase
 
-|     | Resource                                                                        | What you'll find                                                  |
-| --- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
-| 🚀  | **[Getting Started](https://help.dazl.dev)**                                    | Onboarding, core guides, and everything to hit the ground running |
-| 🤖  | **[Working with the AI](https://help.dazl.dev/docs/building-with-dazl/design-and-refine/chat-driven-editing)** | Prompting, iterating, inspecting changes, and version management  |
-| 🛠️  | **[Using the Dev Tools](https://help.dazl.dev/docs/building-with-dazl/iterate-and-collaborate/inspecting-your-project)** | Elements, Console, and Code panels for precise debugging          |
-| 💰  | **[Pricing & Account](https://dazl.dev/pricing)**                               | Plans, credits, and what's included                               |
+**Authentication
+🔐 Supabase Auth
+Google Login, GitHub Login, LinkedIn Login, Email OTP, Phone OTP
 
----
+**API Implementation 
+🤖 Gemini Flash 🧠 Gemini Pro
 
-**Built with [Dazl](https://dazl.dev)** · Empowering product teams to build better, faster.
+**Automation
+🔄 n8n
+
+Queue Management
+📬 Redis
+
+Storage
+☁️ Supabase Storage
+
+**Payments
+💳 Razorpay(still implementing)
+
+Monitoring
+📈 PostHog 🚨 Sentry
+
+**CDN & Security
+🛡 Cloudflare
+
+🚀 Scalability Goals
+
+Built to support:
+
+
+100K+ concurrent users
+
+Stateless architecture
+
+Queue-based processing
+
+Horizontal scaling
+
+AI workload isolation
+
+CDN optimization
+
+Fault-tolerant workflows
+
+Built by Tiyas
