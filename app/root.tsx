@@ -8,6 +8,7 @@ import "./styles/reset.css";
 import "./styles/global.css";
 import "./styles/theme.css";
 import { useColorScheme } from "@dazl/color-scheme/react";
+import { AppProvider } from "~/context/app-context";
 import favicon from "/favicon.svg";
 
 export const links: Route.LinksFunction = () => [
@@ -22,7 +23,10 @@ export const links: Route.LinksFunction = () => [
     href: "https://fonts.gstatic.com",
     crossOrigin: "anonymous",
   },
-  /* Placeholder for Google Fonts link */
+  {
+    rel: "stylesheet",
+    href: "https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap",
+  },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
@@ -46,7 +50,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return (
+    <AppProvider>
+      <Outlet />
+    </AppProvider>
+  );
 }
 
 export const ErrorBoundary = ErrorBoundaryRoot;

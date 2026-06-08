@@ -1,0 +1,59 @@
+.tools {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+.toolCard {
+  padding: var(--space-5);
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  height: 100%;
+}
+.toolIcon {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+  color: var(--color-primary);
+  background: linear-gradient(135deg, var(--color-primary-soft), var(--color-accent-soft));
+}
+.toolText {
+  flex: 1;
+  min-width: 0;
+}
+.toolText h3 {
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+.toolText p {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+.toolArrow {
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+}
+
+.sectionTitle {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  margin-bottom: var(--space-4);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-4);
+}
+
+.empty {
+  padding: var(--space-7);
+  text-align: center;
+  color: var(--color-text-muted);
+}
